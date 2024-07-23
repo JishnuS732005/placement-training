@@ -7,7 +7,7 @@ def average(array):
     avg=total_sum/num_elements
     return avg
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     n = int(input())
     arr = list(map(int, input().split()))
     result = average(arr)
