@@ -1,6 +1,6 @@
 #  https://www.hackerrank.com/challenges/no-idea/problem?isFullScreen=true
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     n,m=map(int,input().split())
     array=list(map(int,input().split()))
     set_A=set(map(int,input().split()))
